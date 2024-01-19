@@ -1,0 +1,14 @@
+
+name: Request For Comment - link
+description: Issue koppelen aan Request For Comment
+title: "Request For Comment - titel"
+labels: ["RFComment"]
+projects: ["iStandaarden/11"]
+body:
+- type: textarea
+  id: link
+  attributes:
+    label: Link naar RFC
+    value: [Link naar Request For Comment]() 
+  validations:
+    required: true
