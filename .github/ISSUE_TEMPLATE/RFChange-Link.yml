@@ -1,0 +1,16 @@
+
+name: Request For Change - link
+description: Issue koppelen aan Request For Change
+title: "RFC - titel"
+labels: ["RF Change"]
+projects: ["iStandaarden/11"]
+body:
+- type: textarea
+  id: link
+  attributes:
+    label: Link naar RFC
+    description: "Neem de koppeling naar het RFC hier op"
+    value: |
+      [RFC titel](url)
+  validations:
+    required: true
