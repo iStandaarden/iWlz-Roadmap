@@ -18,11 +18,4 @@ body:
     render: bash
   validations:
     required: true
-- type: textarea
-  id: link
-  attributes:
-    label: Link naar RFC
-    description: test
-    value: [Link naar Request For Comment]
-  validations:
-    required: true
+
