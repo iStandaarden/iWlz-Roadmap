@@ -9,6 +9,6 @@ body:
   id: link
   attributes:
     label: Link naar RFC
-    value: [Link naar Request For Comment]() 
+    value: [Link naar Request For Comment]()
   validations:
     required: true
