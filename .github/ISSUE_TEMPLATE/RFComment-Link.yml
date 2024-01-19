@@ -6,15 +6,12 @@ labels: ["RFComment"]
 projects: ["iStandaarden/11"]
 body:
 - type: textarea
-  id: repro
+  id: link
   attributes:
-    label: Reproduction steps
-    description: "How do you trigger this bug? Please walk us through it step by step."
+    label: Link naar RFC
+    description: "Neem de koppeling naar het RFC hier op"
     value: |
-      1.
-      2.
-      3.
-      ...
+      [Link]()
     render: bash
   validations:
     required: true
