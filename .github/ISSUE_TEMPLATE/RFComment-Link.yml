@@ -2,7 +2,7 @@
 name: Request For Comment - link
 description: Issue koppelen aan Request For Comment
 title: "RFC - titel"
-labels: ["RFComment"]
+labels: ["RF Comment"]
 projects: ["iStandaarden/11"]
 body:
 - type: textarea
