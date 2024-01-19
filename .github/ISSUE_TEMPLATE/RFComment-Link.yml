@@ -1,7 +1,7 @@
 
 name: Request For Comment - link
 description: Issue koppelen aan Request For Comment
-title: "Request For Comment - titel"
+title: "RFC - titel"
 labels: ["RFComment"]
 projects: ["iStandaarden/11"]
 body:
@@ -11,8 +11,7 @@ body:
     label: Link naar RFC
     description: "Neem de koppeling naar het RFC hier op"
     value: |
-      [Link]()
-    render: bash
+      [RFC titel](url)
   validations:
     required: true
 
