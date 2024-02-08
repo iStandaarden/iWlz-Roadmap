@@ -1,0 +1,15 @@
+name: Team realisatie link issue
+description: Issue voor het koppelen van een team realisatie issue aan RFC of ander hoofd issue
+title: "Realisatie <onderdeel> - team"
+labels: ["realisatie"]
+projects: ["iStandaarden/11"]
+body:
+- type: textarea
+  id: link
+  attributes:
+    label: Link naar RFC
+    description: "Neem de koppeling naar het Issue hier op"
+    value: |
+      Realisatie van 
+  validations:
+    required: true
