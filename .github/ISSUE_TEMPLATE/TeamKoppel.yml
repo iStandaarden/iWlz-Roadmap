@@ -1,7 +1,7 @@
 name: Team realisatie link issue
 description: Issue voor het koppelen van een team realisatie issue aan RFC of ander hoofd issue
 title: "Realisatie <onderdeel> - team"
-labels: ["realisatie"]
+labels: ["Realisatie"]
 projects: ["iStandaarden/11"]
 body:
 - type: textarea
